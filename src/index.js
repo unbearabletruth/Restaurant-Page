@@ -1,8 +1,10 @@
-import load from './home/home';
+import loadHome from './home/home';
+import loadMenu from './menu/menu';
+import loadContact from './contact/contact';
 import './style.css';
 //import background from "./background.jpg";
 
-
+const content = document.getElementById("content");
 
 const header = document.createElement("div");
 header.classList.add("header");
@@ -37,4 +39,25 @@ footer.appendChild(on);
 footer.appendChild(shoutoutsite);
 
 document.body.appendChild(footer);
-load();
+loadHome();
+
+hometab.addEventListener("click", () => {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+    loadHome();
+})
+
+menutab.addEventListener("click", () => {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+    loadMenu();
+})
+
+contacttab.addEventListener("click", () => {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+    loadContact();
+})

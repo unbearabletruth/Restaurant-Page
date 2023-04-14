@@ -1,5 +1,5 @@
 
-function load (){
+function loadHome (){
     const content = document.getElementById("content");
     const title = document.createElement("h1");
     title.textContent = "Come and have everything for free!";
@@ -14,4 +14,4 @@ function load (){
     content.appendChild(text);  
 }
 
-export default load;
+export default loadHome;
