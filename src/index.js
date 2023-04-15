@@ -3,7 +3,7 @@ import loadHome from './home/home';
 import loadMenu from './menu/menu';
 import loadContact from './contact/contact';
 import './style.css';
-//import background from "./background.jpg";
+
 
 const content = document.getElementById("content");
 

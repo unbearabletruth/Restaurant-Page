@@ -1,0 +1,28 @@
+
+img.home {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+p.homeinfo {
+    font-size: 28px;
+}
+
+p.homewhy {
+    font-size: 16px;
+}
+
+div#question {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+ul.homehours {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,26 @@
+h1.contact {
+    display: flex;
+    flex: 1;
+}
+
+div.contact {
+    font-size: 20px;
+}
+
+ul.contact {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div.socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img.socials {
+    width: 30px;
+    height: auto;
+}
